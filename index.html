@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flappy Birds Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Flappy Clone</h1>
+      <div class="game-wrap">
+        <canvas id="gameCanvas" width="420" height="600"></canvas>
+        <div id="ui">
+          <div id="score">0</div>
+          <div id="msg">Click / Space to start</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="restartBtn">Restart</button>
+        <label><input type="checkbox" id="showHitboxes" /> Show hitboxes</label>
+      </div>
+
+      <footer>Controls: Click / Tap / Space = flap</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
